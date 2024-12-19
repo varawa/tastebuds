@@ -1,8 +1,16 @@
 {
-  "name": "react",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-loading-skeleton": "^3.5.0",
+    "react-router": "^7.0.2",
+    "react-router-dom": "^6.24.1",
+    "tastebuds": "file:"
+  },
+  "name": "tastebuds",
   "version": "1.0.0",
-  "description": "learning react",
-  "main": "App.js",
+  "description": "Food ordering app in ReactJs.",
+  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -10,27 +18,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/varawa/react.git"
+    "url": "git+ssh://git@github.com/varawa/tastebuds.git"
   },
   "author": "Vartika Rawat",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/varawa/react/issues"
+    "url": "https://github.com/varawa/tastebuds/issues"
   },
-  "homepage": "https://github.com/varawa/react#readme",
+  "homepage": "https://github.com/varawa/tastebuds#readme",
   "devDependencies": {
-    "@babel/core": "^7.24.7",
+    "@babel/core": "^7.26.0",
+    "babel-install": "2.1.0",
     "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.13.3",
     "process": "^0.11.10"
   },
-  "dependencies": {
-    "react": "file:",
-    "react-dom": "^19.0.0",
-    "react-loading-skeleton": "^3.4.0",
-    "react-router-dom": "^6.24.1"
-  },
-  "browserList": [
+  "browsersList": [
     "last 2 versions"
   ]
 }
