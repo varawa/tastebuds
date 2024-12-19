@@ -9,8 +9,7 @@
   },
   "name": "tastebuds",
   "version": "1.0.0",
-  "description": "Food ordering app in ReactJs.",
-  "main": "index.js",
+  "description": "Food ordering app in ReactJs",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
