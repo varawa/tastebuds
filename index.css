@@ -1,0 +1,235 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+body {
+    font-family: 'Roboto', 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  }
+
+.header{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content:space-between ;
+    
+    background-color: rgb(252, 218, 224);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.625rem rgba(36, 15, 31, 0.563);
+    
+}
+
+.logo{
+    width:6vw ;
+    
+}
+
+.card{
+    width: 20vw;
+    height: 40vh;
+    box-shadow: 0 0 0.5rem #433b3bf3;
+    border-radius: 0.5rem;
+    padding: 0.625rem;
+    margin: 0.625rem;
+}
+
+.time{
+    padding: 0.125rem;
+    width: 25vw; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    font-size: 0.875rem;
+}
+
+.line2 , .head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head{
+    margin-top: 0.5rem;
+}
+
+.rating{
+    color: white;
+    display: flex;
+    justify-content: end;
+    justify-items: center;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.1875rem #433b3bf3 ;
+    padding: 0.125rem;
+    margin: 0.3125rem;
+    background-color: green ;
+}
+
+.ratingNum{
+    color:white;
+    margin: 0.0625rem;
+    align-self: center;
+    font-size: 0.8125rem;
+}
+
+.star{
+    margin:0.125rem;
+    align-self: center;
+    width: 0.75rem;
+}
+
+.cuisine{
+    font-size: 1.0625rem;
+    width: 13vw;  /* Set the width of your element */
+    overflow: hidden;  /* Hide content that overflows */
+    text-overflow: ellipsis;  /* Display "..." for overflow */
+    white-space: nowrap;
+}
+
+.name{
+    width: 15vw;  /* Set the width of your element */
+    overflow: hidden;  /* Hide content that overflows */
+    text-overflow: ellipsis;  /* Display "..." for overflow */
+    white-space: nowrap;
+    font-size: 1.25rem;
+}
+
+.line2{
+    display: flex;
+    justify-content:space-between;
+}
+
+.cost{
+    font-size: 0.9375rem;
+    width: 5vw;  /* Set the width of your element */
+    overflow: hidden;  /* Hide content that overflows */
+    text-overflow: ellipsis;  /* Display "..." for overflow */
+    white-space: nowrap;
+}
+
+
+.imgBox{
+    height: 75%;
+    border:1px solid beige ;
+    border-radius: 0.5rem;
+}
+
+.imgBox > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.nav-items > ul {
+    align-items: center;
+    list-style-type: none ;
+    display: flex;
+    margin-right: 30px;
+}
+
+.nav-items > ul >li{
+    font-family:"Roboto Condensed", sans-serif; 
+    padding: 10px ;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 20rem;
+}
+
+.nav-items a:hover{
+    background-color: black;
+    color:white;
+}
+
+
+.restaurantList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.search-container{
+    width: auto;
+}
+
+.shimmer{
+    width: 221.6px;
+    height: 549.06px;
+    margin: 10px;
+    background: linear-gradient(90deg, #eee 40%, #fafafa 50%, #eee 60%);
+    background-size: 300%;
+    background-position-x: 100% ;
+    animation: sh 2s infinite linear;
+}
+
+@keyframes sh {
+    to {
+       background-position-x: 0%
+    }
+ }
+
+.shimmer-restro{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.search-container {
+    width:100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-image: url('./src/assets/back.jpg'); 
+    background-size:cover;
+    background-position: center;
+    
+}
+
+.search-input {
+    width: 600px;
+    padding: 10px;
+    border: 1px solid beige ;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+    font-style: italic;
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;;
+    box-shadow: 0 0 10px #433b3bf3;
+}
+
+.search-input:focus {
+    border-color: none;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(252, 218, 224);
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-btn:hover{
+    background-color: black;
+    color:white;
+}

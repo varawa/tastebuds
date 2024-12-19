@@ -1,0 +1,36 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "learning react",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/varawa/react.git"
+  },
+  "author": "Vartika Rawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varawa/react/issues"
+  },
+  "homepage": "https://github.com/varawa/react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "file:",
+    "react-dom": "^19.0.0",
+    "react-loading-skeleton": "^3.4.0",
+    "react-router-dom": "^6.24.1"
+  },
+  "browserList": [
+    "last 2 versions"
+  ]
+}
